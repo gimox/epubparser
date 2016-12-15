@@ -1,92 +1,34 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "epub-parser@^0.2.5",
-        "scope": null,
-        "escapedName": "epub-parser",
-        "name": "epub-parser",
-        "rawSpec": "^0.2.5",
-        "spec": ">=0.2.5 <0.3.0",
-        "type": "range"
-      },
-      "/home/galastra/ebs-webreader/tr-parser"
-    ]
-  ],
-  "_from": "epub-parser@>=0.2.5 <0.3.0",
-  "_id": "epub-parser@0.2.5",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/epub-parser",
-  "_npmUser": {
-    "name": "vaporbook",
-    "email": "aaron@readsocialapi.com"
-  },
-  "_npmVersion": "1.3.10",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "epub-parser@^0.2.5",
-    "scope": null,
-    "escapedName": "epub-parser",
-    "name": "epub-parser",
-    "rawSpec": "^0.2.5",
-    "spec": ">=0.2.5 <0.3.0",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/epub-parser/-/epub-parser-0.2.5.tgz",
-  "_shasum": "b8f6d45b6d2fca207cd6ad46123c10b5953535ea",
-  "_shrinkwrap": null,
-  "_spec": "epub-parser@^0.2.5",
-  "_where": "/home/galastra/ebs-webreader/tr-parser",
-  "author": {
-    "name": "Aaron Miller",
-    "email": "aaron@readsocialapi.com",
-    "url": "http://twitter.com/vaporbook"
-  },
-  "bugs": {
-    "email": "aaron@readsocialapi.com"
-  },
-  "dependencies": {
-    "eyes": "~0.1.8",
-    "node-zip": ">=0.0.2",
-    "request": "~2.12.0",
-    "xml2js": ">=0.0.1"
-  },
+  "name": "epub-parser",
+  "version": "0.2.5",
   "description": "Epub parser",
-  "devDependencies": {
-    "vows": "0.5.x"
-  },
-  "directories": {
-    "example": "example"
-  },
-  "dist": {
-    "shasum": "b8f6d45b6d2fca207cd6ad46123c10b5953535ea",
-    "tarball": "https://registry.npmjs.org/epub-parser/-/epub-parser-0.2.5.tgz"
-  },
-  "homepage": "https://github.com/Vaporbook/epub-parser",
   "keywords": [
     "epub"
   ],
-  "license": "BSD",
+  "homepage": "https://github.com/Vaporbook/epub-parser",
+  "bugs": {
+    "email": "aaron@readsocialapi.com"
+  },
+  "author": "Aaron Miller <aaron@readsocialapi.com> (http://twitter.com/vaporbook)",
+  "dependencies": {
+    "node-zip": ">=0.0.2",
+    "xml2js": ">=0.0.1",
+    "request": "~2.12.0",
+    "eyes": "~0.1.8"
+  },
+  "devDependencies": {
+    "vows": "0.5.x"
+  },
   "main": "index.js",
-  "maintainers": [
-    {
-      "name": "vaporbook",
-      "email": "aaron@readsocialapi.com"
-    }
-  ],
-  "name": "epub-parser",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Vaporbook/epub-parser.git"
+  "directories": {
+    "example": "example"
   },
   "scripts": {
     "test": "node ./example/parse.js example/testbook.epub"
   },
-  "version": "0.2.5"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Vaporbook/epub-parser.git"
+  },
+  "license": "BSD"
 }
